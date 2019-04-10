@@ -17,7 +17,7 @@ npm run test
 
 ### Important configuration
 
-[cypress-cucumber-preprocessor style recommended](https://www.npmjs.com/package/cypress-cucumber-preprocessor#cypress-cucumber-preprocessor-style-recommended)
+- [cypress-cucumber-preprocessor style recommended](https://www.npmjs.com/package/cypress-cucumber-preprocessor#cypress-cucumber-preprocessor-style-recommended)
 Put following config into `pakage.json` file
 
 ```json
@@ -26,5 +26,5 @@ Put following config into `pakage.json` file
 }
 ```
 
-Working project **Cucumber/Gherkin features** and **cypress tests** are located into **`cypress/integration/` folder**.
+- Working project **Cucumber/Gherkin features** and **cypress tests** are located into **`cypress/integration/` folder**.
 
