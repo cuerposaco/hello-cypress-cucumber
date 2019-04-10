@@ -1,3 +1,4 @@
 {
-    "baseUrl": "http://localhost:8080"
+    "ignoreTestFiles": ["*.js", "*.md"],
+    "watchForFileChanges": true
 }

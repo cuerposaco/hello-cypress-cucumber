@@ -4,6 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "test:e2e:tags": "cypress run --env TAGS='@e2e-test' --spec 'cypress/integration/**/*.feature'",
+        "test": "cypress run --spec 'cypress/integration/**/*.feature'",
         "test:bdd": "cucumber-js",
         "cypress:open": "cypress open"
     },
@@ -12,6 +14,10 @@
     "license": "ISC",
     "devDependencies": {
         "cucumber": "^5.1.0",
-        "cypress": "^3.2.0"
+        "cypress": "^3.2.0",
+        "cypress-cucumber-preprocessor": "^1.11.0"
+    },
+    "cypress-cucumber-preprocessor": {
+        "nonGlobalStepDefinitions": true
     }
 }
