@@ -4,12 +4,14 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "cucumber-js"
+        "test:bdd": "cucumber-js",
+        "cypress:open": "cypress open"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "cucumber": "^5.1.0"
+        "cucumber": "^5.1.0",
+        "cypress": "^3.2.0"
     }
 }
