@@ -25,3 +25,6 @@ Put following config into `pakage.json` file
   "nonGlobalStepDefinitions": true
 }
 ```
+
+Working project **Cucumber/Gherkin features** and **cypress tests** are located into **`cypress/integration/` folder**.
+
